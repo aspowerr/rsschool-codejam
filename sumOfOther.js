@@ -1,4 +1,4 @@
-function sumOfOther(array) {
+module.exports = function sumOfOther(array) {
   const newArray = [];
   let sum = 0; 
   for (let i = 0; i < array.length; i++) {
@@ -14,8 +14,3 @@ function sumOfOther(array) {
   }
   return newArray;
 };
-console.log(sumOfOther([2, 3, 4, 1]));
-console.log(sumOfOther([72, 85, 4, 100]));
-console.log(sumOfOther([[], 3, "ddd", 1]));
-console.log(sumOfOther([]));
-console.log(sumOfOther(["2, 3, 4, 1"]));

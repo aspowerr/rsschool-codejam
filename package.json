@@ -2,9 +2,9 @@
   "name": "rsschool-codejam",
   "version": "1.0.0",
   "description": "",
-  "main": "",
+  "main": "test.js",
   "scripts": {
-    "test": "mocha --require ts-node/register test/**/*.ts"
+    "test": "mocha test.js"
   },
   "repository": {
     "type": "git",
