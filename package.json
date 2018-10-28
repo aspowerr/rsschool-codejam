@@ -1,0 +1,32 @@
+{
+  "name": "rsschool-codejam",
+  "version": "1.0.0",
+  "description": "",
+  "main": "test.js",
+  "scripts": {
+    "test": "mocha test.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/aspowerr/rsschool-codejam.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/aspowerr/rsschool-codejam/issues"
+  },
+  "homepage": "https://github.com/aspowerr/rsschool-codejam#readme",
+  "devDependencies": {
+    "@types/chai": "^4.1.7",
+    "@types/mocha": "^5.2.5",
+    "chai": "^4.2.0",
+    "eslint": "^5.8.0",
+    "eslint-config-airbnb": "^17.1.0",
+    "eslint-config-airbnb-base": "^13.1.0",
+    "eslint-plugin-import": "^2.14.0",
+    "mocha": "^5.2.0",
+    "ts-node": "^7.0.1",
+    "typescript": "^3.1.3"
+  }
+}
